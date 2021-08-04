@@ -7,6 +7,13 @@
     <title>contoh</title>
 </head>
 <body>
-    hallo manusia"yang dirahmati allah
+    <center>"hallo manusia yang dirahmati allah" <div><class></class></div></center>
+
+    <form method="POST">
+        {% csrf_token %}
+        <center><input type="text" name="username"/></center>
+        <center><input type="text" name="pasword"></center>
+        <center><button type="submit">submit</button></center>
+    </form>
 </body>
 </html>
